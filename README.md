@@ -1,2 +1,14 @@
-# go-terratest-example
-Automated testing terraform using terratest, writting in Go
+# Terratest Example
+
+## Description
+
+Simple terratest example with GCS modules
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+## Inputs
+
+
+
+## Outputs
+
+
+<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK --

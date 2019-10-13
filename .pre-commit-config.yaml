@@ -1,0 +1,24 @@
+repos:
+  - repo: git://github.com/pre-commit/pre-commit-hooks
+    rev: v2.2.3
+    hooks:
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-yaml
+      - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+
+  - repo: git@github.com:antonbabenko/pre-commit-terraform.git
+    rev: v1.17.0
+    hooks:
+      - id: terraform_fmt
+      - id: terraform_validate
+        exclude: ^examples/
+      - id: terraform_docs
+
+  - repo: git@github.com:dnephin/pre-commit-golang.git
+    rev: v0.3.4
+    hooks:
+      - id: go-fmt
+      - id: validate-toml
