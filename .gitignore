@@ -1,2 +1,2 @@
-.terraform
-.vendor
+**/.terraform/*
+vendor/*

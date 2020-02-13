@@ -1,10 +1,10 @@
-module "default" {
+module "development" {
   source = "../../"
 
   # Bucket detail
-  name          = "testing-terratest-gcs"
+  name          = "terratest-gcp-example"
   location      = "asia-southeast1"
-  project       = "oing-experiment"
+  project       = "tk-dev-micro"
   storage_class = "REGIONAL"
   force_destroy = false
 }

@@ -1,0 +1,16 @@
+package test
+
+import (
+	"testing"
+
+	"github.com/gruntwork-io/terratest/modules/terraform"
+)
+
+func TestGcsExample(t *testing.T) {
+	opts := &terraform.Options{
+		TerraformDir: "../examples/create-gcs",
+	}
+
+	defer terraform.Destroy(t, opts)
+	terraform.InitAndApply(t, opts)
+}

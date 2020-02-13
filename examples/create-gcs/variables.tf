@@ -15,5 +15,5 @@ variable "storage_class" {
 }
 
 variable "force_destroy" {
-  description = "Force destroy when deleting bucker"
+  description = "Force destroy when deleting bucket"
 }
