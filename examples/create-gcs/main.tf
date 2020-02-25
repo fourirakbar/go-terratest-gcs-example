@@ -2,9 +2,9 @@ module "development" {
   source = "../../"
 
   # Bucket detail
-  name          = "terratest-gcp-example"
-  location      = "asia-southeast1"
-  project       = "tk-dev-micro"
-  storage_class = "REGIONAL"
-  force_destroy = false
+  name          = var.name
+  location      = var.location
+  project       = var.project
+  storage_class = var.storage_class
+  force_destroy = var.force_destroy
 }
