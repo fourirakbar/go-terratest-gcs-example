@@ -2,8 +2,7 @@
 
 ## Description
 
-Simple terratest example with GCS modules
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+Simple terratest example with GCS modules. By the way special thanks to [@romen](https://www.linkedin.com/in/rohman/?originalSubdomain=id) for teaching me about terratest.
 
 ## Feature(s)
 
@@ -47,7 +46,7 @@ First thing first, make sure that all prerequisite(s) installed in your device, 
 - [ ] Integrate with jenkins
 - [ ] Integrate with gitlab-ci
 - [ ] Add more complex testing
-
+<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
 
 | Name | Description | Type | Default | Required |
