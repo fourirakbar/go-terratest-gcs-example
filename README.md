@@ -18,6 +18,7 @@ Simple terratest example with GCS modules
 
 | Name | Description |
 |------|-------------|
+| bucket\_url | Bucket URL of the bucket |
 | force\_destroy | Force destroy of the bucket |
 | location | Location of the bucker |
 | name | Name of the bucket |
