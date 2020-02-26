@@ -4,6 +4,50 @@
 
 Simple terratest example with GCS modules
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+
+## Feature(s)
+
+What you can do on top of this repository:
+
+- [x] Create a test for your module terraform
+- [x] Test create a real env on your google project, then destroy it
+
+## Prerequisite(s)
+
+To smoothly interact with this repository please install following application in your local device:
+
+- Linux only (`apt install build-essential`)
+- Golang (tested on go1.13.1)
+- Terraform (tested on v0.12.19)
+- [pre-commit](https://pre-commit.com/) (tested on v1.17.0)
+- Text editor (Vim, Visual Studio Code, Intellij Idea, etc.)
+
+## How to Use This Repo
+### Clone this repository
+First thing first, make sure that all prerequisite(s) installed in your device, then clone this repository (make sure you have access to it)
+```$bash
+~ git clone git@github.com:fourirakbar/go-terratest-example.git
+```
+
+### Setup .pre-commit
+
+```$bash
+~ cd go-terratest-example
+~ make setup
+```
+
+### Test your code using terratest
+```$bash
+~ cd test
+~ go test -test.v -run TestTerraformGcpExample
+```
+
+## To Do
+
+- [ ] Integrate with jenkins
+- [ ] Integrate with gitlab-ci
+- [ ] Add more complex testing
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
