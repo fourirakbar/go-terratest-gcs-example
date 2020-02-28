@@ -17,6 +17,7 @@ To smoothly interact with this repository please install following application i
 
 - Linux only (`apt install build-essential`)
 - Golang (tested on go1.13.1)
+- Dep (tested on v0.5.4)
 - Terraform (tested on v0.12.19)
 - [pre-commit](https://pre-commit.com/) (tested on v1.17.0)
 - Text editor (Vim, Visual Studio Code, Intellij Idea, etc.)
