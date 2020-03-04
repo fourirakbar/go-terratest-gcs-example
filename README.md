@@ -17,7 +17,6 @@ To smoothly interact with this repository please install following application i
 
 - Linux only (`apt install build-essential`)
 - Golang (tested on go1.13.1)
-- Dep (tested on v0.5.4)
 - Terraform (tested on v0.12.19)
 - [pre-commit](https://pre-commit.com/) (tested on v1.17.0)
 - Text editor (Vim, Visual Studio Code, Intellij Idea, etc.)
@@ -38,15 +37,17 @@ First thing first, make sure that all prerequisite(s) installed in your device, 
 
 ### Test your code using terratest
 ```$bash
+~ go mod init test
 ~ cd test
-~ go test -test.v -run TestTerraformGcpExample
+~ go test -v gcp_gcs_test.go
 ```
 
 ## To Do
 
 - [ ] Integrate with jenkins
-- [ ] Integrate with gitlab-ci
+- [x] Integrate with gitlab-ci
 - [ ] Add more complex testing
+- [ ] Add integration testing with other module
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Inputs
 
