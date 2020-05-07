@@ -16,14 +16,7 @@ validate:
   artifacts:
     paths:
       - .terraform
-
-# scriptlint:
-#   stage: lint
-#   image:
-#     name: "koalaman/shellcheck-alpine"
-#   script:
-#     - shellcheck scripts/*
-
+      
 terralint:
   stage: lint
   image:
