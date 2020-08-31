@@ -2,4 +2,3 @@
 vendor/*
 go.mod
 go.sum
-*.tfstate
